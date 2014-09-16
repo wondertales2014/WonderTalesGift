@@ -208,18 +208,18 @@ ModelImporter:
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 100}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: upper_arm_R
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 100}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: forearm_L
       humanName: LeftLowerArm
       limit:

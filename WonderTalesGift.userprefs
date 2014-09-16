@@ -1,11 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\3DModels\PigRed\Scripts\Animacion Collider.js">
-    <Files>
-      <File FileName="Assets\3DModels\PigRed\Scripts\Animacion Collider.js" Line="1" Column="1" />
-      <File FileName="Assets\3DModels\PigRed\Scripts\Animacion Collider.js" Line="35" Column="37" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

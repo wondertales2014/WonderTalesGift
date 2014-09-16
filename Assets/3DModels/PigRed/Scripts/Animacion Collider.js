@@ -48,8 +48,18 @@ function Update () {
 						// esto hara que el chancho vuelva a la posicion idle
 						anim.SetBool("caminar", false);
 						}
-					}		
+					}
 				}
+			else
+				{
+               	// Verificamos si el usuario toco la pantalla
+				if (Input.GetTouch(i).phase == TouchPhase.Began)
+					{
+					// Hacemos que el chancho mire hacia el lugar donde el usuario toco la pantalla
+					anim.SetLookAtPosition(Input.GetTouch(i).position);
+					anim.SetLookAtWeight(1.0f);
+					}					
+				}	
 			}
 		}
 }
