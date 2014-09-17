@@ -1,6 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\3DModels\PigRed\Scripts\Animacion AR.js">
+    <Files>
+      <File FileName="Assets\3DModels\PigRed\Scripts\AR Touch detection.js" Line="16" Column="37" />
+      <File FileName="Assets\3DModels\PigRed\Scripts\Animacion AR.js" Line="13" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

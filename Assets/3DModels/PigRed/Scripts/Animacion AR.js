@@ -9,6 +9,14 @@ function Start () {
 
 function Update () {
 
+	var fwd = transform.TransformDirection (Vector3.forward);
+	print("fwd: " + fwd);
+	var hit:RaycastHit;
+	if (Physics.Raycast (transform.position, fwd, hit, Mathf.Infinity)) 
+		{
+		print("hit");
+		anim.SetBool("miraCentro", true);
+		}
 }
 
 function OnTouchDown (valor : int) {
