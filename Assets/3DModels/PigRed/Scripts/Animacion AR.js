@@ -10,7 +10,6 @@ function Start () {
 function Update () {
 
 	var fwd = transform.TransformDirection (Vector3.forward);
-	print("fwd: " + fwd);
 	var hit:RaycastHit;
 	if (Physics.Raycast (transform.position, fwd, hit, Mathf.Infinity)) 
 		{
@@ -29,5 +28,19 @@ function OnTouchDown (valor : int) {
 		{
 		anim.SetBool("caminar", false);
 		}
-		
+	if (valor == 3)
+		{
+		print("object to zero init");
+		print(this.transform.position.x);
+		print(this.transform.position.y);
+		print(this.transform.position.z);
+		//transform.position.Set (0, 0, 0);
+		this.transform.position.x = 0;
+		this.transform.position.y = 0;
+		this.transform.position.z = 0;
+		print(this.transform.position.x);
+		print(this.transform.position.y);
+		print(this.transform.position.z);
+		print("object to zero");
+		}
 }
