@@ -1,35 +1,35 @@
-Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-1-6972
+Base path: /Applications/Unity/Unity.app/Contents
+Pipe name: \\.\pipe\UnityShaderCompiler-1--1589341784
 Cmd: getPlatforms
 Cmd: preprocess
-  insize=848 outsize=848 ok=1
+  insize=818 outsize=818 ok=1
 Cmd: preprocess
-  insize=683 outsize=683 ok=1
+  insize=660 outsize=660 ok=1
 Cmd: preprocess
-  insize=995 outsize=995 ok=1
+  insize=963 outsize=963 ok=1
 Cmd: preprocess
-  insize=534 outsize=534 ok=1
+  insize=516 outsize=516 ok=1
 Cmd: preprocess
-  insize=495 outsize=495 ok=1
+  insize=472 outsize=472 ok=1
 Cmd: preprocess
-  insize=876 outsize=876 ok=1
+  insize=835 outsize=835 ok=1
 Cmd: preprocess
-  insize=944 outsize=276 ok=1
+  insize=892 outsize=259 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=933 outsize=365 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=933 outsize=204 kw= ok=1
 Cmd: preprocess
-  insize=769 outsize=769 ok=1
+  insize=730 outsize=730 ok=1
 Cmd: preprocess
-  insize=638 outsize=638 ok=1
+  insize=608 outsize=608 ok=1
 Cmd: preprocess
-  insize=1426 outsize=1426 ok=1
+  insize=1355 outsize=1355 ok=1
 Cmd: preprocess
-  insize=923 outsize=923 ok=1
+  insize=890 outsize=890 ok=1
 Cmd: preprocess
-  insize=334 outsize=334 ok=1
+  insize=316 outsize=316 ok=1
 Cmd: preprocess
-  insize=664 outsize=664 ok=1
+  insize=634 outsize=634 ok=1
 Cmd: preprocess
-  insize=1000 outsize=1000 ok=1
-Unhandled exception: Readfile from pipe failed. GLE=Ha terminado la canalización.
-
-
-Quitting shader compiler process
+  insize=963 outsize=963 ok=1
